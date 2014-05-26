@@ -1,0 +1,73 @@
+{
+  "meta": { 
+    "0manifest": {
+      "version":  "0.0.1"
+    }
+  },
+  "uma": { 
+    "api": {
+      "src": "http://leanstack.io/stackups/auth0-vs-dailycred-vs-stormpath" 
+    }
+  },
+  "router": { 
+    "src": "http://example.com/somefile.json",
+    "notes": {  
+      "editing": { 
+        "cloud9": "http://cloud9.io/asdfasdfasdf" 
+      }
+    }
+  },
+  "datasource": { 
+    "notes": {
+      "example": "http://goo.gl/Sq3jfo"
+    },
+    "version": "0.0.1",
+    "google-spreadsheet": { 
+      "api-key": "someapikeyaslkdf29r3ujasdfl;jasdf"
+    }
+  },
+  "templateplan": { 
+    "src": "http://example.com/somefile.json",
+    "notes": {
+      "editing": { 
+        "cloud9": "http://cloud9.io/asdfasdfasdf"
+      }
+    }
+    },
+  "style": {
+    "sass": { 
+      "src": "http://example.com/somefile.scss",
+      "editing": { 
+        "cloud9": "http://cloud9.io/asdfasdfasdf"
+      }
+    }
+  },
+  "packages": {
+    "bower": ["jquery", "bootstrap"]
+  },
+  "script": { 
+    "javascript": {
+      "src": "http://example.com/somefile.js",    
+      "editing": { 
+        "cloud9": "http://cloud9.io/asdfasdfasdf"
+      }
+    }
+  },
+  "api": {
+    "rest": {
+      "json": {
+        "src": "http://example.com/rest-schema.js"
+      }
+    },
+    "websocket": {
+      "json": {
+        "src": "http://example.com/websocket-schema.js"
+      }
+    },
+    "rpc": {
+      "json": {
+        "src": "http://example.com/rpc-schema.js" 
+      }
+    }
+  }
+}
