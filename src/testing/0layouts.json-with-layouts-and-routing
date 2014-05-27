@@ -9,6 +9,14 @@
       "src": "http://leanstack.io/stackups/auth0-vs-dailycred-vs-stormpath" 
     }
   },
+  "router": { 
+    "src": "http://example.com/somefile.json",
+    "notes": {  
+      "editing": { 
+        "cloud9": "http://cloud9.io/asdfasdfasdf" 
+      }
+    }
+  },
   "datasource": { 
     "notes": {
       "example": "http://goo.gl/Sq3jfo"
@@ -18,6 +26,14 @@
       "api-key": "someapikeyaslkdf29r3ujasdfl;jasdf"
     }
   },
+  "templateplan": { 
+    "src": "http://example.com/somefile.json",
+    "notes": {
+      "editing": { 
+        "cloud9": "http://cloud9.io/asdfasdfasdf"
+      }
+    }
+    },
   "style": {
     "sass": { 
       "src": "http://example.com/somefile.scss",

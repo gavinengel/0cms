@@ -1,0 +1,1136 @@
+<body class="logged_in  env-production linux  page-dashboard">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      <div class="header header-logged-in true">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+    
+    <a href="/notifications" aria-label="You have unread notifications" class="notification-indicator tooltipped tooltipped-s" data-hotkey="g n">
+        <span class="mail-status unread"></span>
+</a>
+
+      <div class="command-bar js-command-bar  ">
+          <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<div class="commandbar">
+  <span class="message"></span>
+  <input type="text" data-hotkey="s, /" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off" data-username="gavinengel">
+  <div class="display hidden"></div>
+</div>
+
+
+  <span class="help tooltipped tooltipped-s" aria-label="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+        <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+            <li><a href="https://gist.github.com">Gist</a></li>
+            <li><a href="/blog">Blog</a></li>
+          <li><a href="https://help.github.com">Help</a></li>
+        </ul>
+      </div>
+
+    
+
+
+  <ul id="user-links">
+    <li>
+      <a href="/gavinengel" class="name">
+        <img alt="Gavin Engel" class=" js-avatar" data-user="523621" height="20" src="https://avatars3.githubusercontent.com/u/523621?s=140" width="20"> gavinengel
+      </a>
+    </li>
+
+    <li class="new-menu dropdown-toggle js-menu-container">
+      <a href="#" class="js-menu-target tooltipped tooltipped-s" aria-label="Create new...">
+        <span class="octicon octicon-plus"></span>
+        <span class="dropdown-arrow"></span>
+      </a>
+
+      <div class="new-menu-content js-menu-content">
+      </div>
+    </li>
+
+    <li>
+      <a href="/settings/profile" id="account_settings" class="tooltipped tooltipped-s" aria-label="Account settings ">
+        <span class="octicon octicon-tools"></span>
+      </a>
+    </li>
+    <li>
+      <form class="logout-form" action="/logout" method="post">
+        <button class="sign-out-button tooltipped tooltipped-s" aria-label="Sign out">
+          <span class="octicon octicon-sign-out"></span>
+        </button>
+      </form>
+    </li>
+
+  </ul>
+
+<div class="js-new-dropdown-contents hidden">
+  
+
+<ul class="dropdown-menu">
+  <li>
+    <a href="/new"><span class="octicon octicon-repo"></span> New repository</a>
+  </li>
+  <li>
+    <a href="/organizations/new"><span class="octicon octicon-organization"></span> New organization</a>
+  </li>
+
+
+</ul>
+
+</div>
+
+
+    
+  </div>
+</div>
+
+      
+
+        
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+        <div class="site clearfix">
+          <div id="site-container" class="context-loader-container" data-pjax-container="">
+            
+            
+
+
+<div class="pagehead">
+  <div class="container">
+    <nav class="orgs-nav">
+  <a href="/" class="selected js-selected-navigation-item org-nav-item" data-selected-links=" /"><span class="octicon octicon-rss"></span> News Feed</a>
+  <a href="/dashboard/pulls" class="js-selected-navigation-item org-nav-item" data-selected-links=" /dashboard/pulls"><span class="octicon octicon-git-pull-request"></span> Pull Requests</a>
+  <a href="/dashboard/issues" class="org-nav-item "><span class="octicon octicon-issue-opened"></span> Issues</a>
+</nav>
+
+    <div class="select-menu account-switcher js-menu-container js-select-menu">
+  <span class="minibutton select-menu-button with-gravatar js-menu-target" aria-haspopup="true" aria-label="Switch account context" role="button" tabindex="0">
+    <div class="select-menu-button-gravatar js-select-button-gravatar">
+      <img alt="Gavin Engel" class=" js-avatar" data-user="523621" height="20" src="https://avatars3.githubusercontent.com/u/523621?s=140" width="20">
+    </div>
+    <span class="js-select-button">gavinengel</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content" role="menu" aria-labelledby="context-switch-title" aria-hidden="true">
+    <div class="select-menu-modal js-navigation-container">
+      <div class="select-menu-header">
+        <span class="select-menu-title" id="context-switch-title">Switch dashboard context</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close menu"></span>
+      </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-list js-navigation-container">
+            <div class="select-menu-no-results">You don’t belong to any organizations.</div>
+          </div> <!-- /.select-menu-list -->
+          <div class="select-menu-footer">
+            <span class="octicon octicon-plus"></span>
+            <a href="/account/organizations/new">Create organization</a>
+          </div> <!-- /.select-menu-footer -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  </div>
+</div><!-- /.pagehead -->
+
+<div class="container">
+  
+
+      <div class="bootcamp js-notice">
+  <h1>GitHub Bootcamp 
+  <a href="/dashboard/dismiss_bootcamp" class="js-notice-dismiss dismiss-bootcamp dismiss tooltipped tooltipped-w" aria-label="Hide this notice forever" data-remote="" data-method="post"><span class="octicon octicon-x"></span></a>
+  </h1>
+  <div class="bootcamp-body">
+  <ul>
+    <li class="setup">
+      <a href="https://help.github.com/set-up-git-redirect" target="_blank">
+        <div class="image"></div>
+        <div class="desc">
+          <h2>Set up Git</h2>
+          <p>A quick guide to help you get started with Git.</p>
+        </div>
+        <span class="step-number one">1</span>
+      </a>
+    </li>
+    <li class="create-a-repo">
+      <a href="https://help.github.com/create-a-repo" target="_blank">
+        <div class="image"></div>
+        <div class="desc">
+          <h2>Create repositories</h2>
+          <p>Repositories are where you’ll work and collaborate on projects.</p>
+        </div>
+        <span class="step-number two">2</span>
+      </a>
+    </li>
+    <li class="fork-a-repo">
+      <a href="https://help.github.com/fork-a-repo" target="_blank">
+        <div class="image"></div>
+        <div class="desc">
+          <h2>Fork repositories</h2>
+          <p>Forking creates a new, unique project from an existing one.</p>
+        </div>
+        <span class="step-number three">3</span>
+      </a>
+    </li>
+    <li class="be-social">
+      <a href="https://help.github.com/be-social" target="_blank">
+        <div class="image"></div>
+        <div class="desc">
+          <h2>Work together</h2>
+          <p>Send pull requests, follow friends.<br>Star and watch projects.</p>
+        </div>
+        <span class="step-number four">4</span>
+      </a>
+    </li>
+  </ul>
+  </div> <!-- /bootcamp-body -->
+</div> <!-- /bootcamp -->
+
+
+  <div id="dashboard">
+    <div class="news">
+      
+
+      
+          <div class="alert create simple"><div class="body"><!-- create -->
+<div class="simple">
+  <span class="octicon octicon-repo"></span>
+
+  <div class="title">
+    <a href="https://github.com/gshipley">gshipley</a> <span>created</span> repository <a href="/gshipley/first-php-quickstart" class="css-truncate css-truncate-target" title="first-php-quickstart">first-php-quickstart</a>
+  </div>
+
+  <div class="time">
+    <time datetime="2014-05-22T15:19:40Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-05-22 11:19:40 -0400">Thursday at 11:19am</time>
+  </div>
+</div>
+</div></div>
+          <div class="alert create simple"><div class="body"><!-- create -->
+<div class="simple">
+  <span class="octicon octicon-repo"></span>
+
+  <div class="title">
+    <a href="https://github.com/gshipley">gshipley</a> <span>created</span> repository <a href="/gshipley/logentries-emea-cartridge" class="css-truncate css-truncate-target" title="logentries-emea-cartridge">logentries-emea-cartridge</a>
+  </div>
+
+  <div class="time">
+    <time datetime="2014-05-22T13:33:52Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-05-22 09:33:52 -0400">Thursday at 9:33am</time>
+  </div>
+</div>
+</div></div>
+          <div class="alert create simple"><div class="body"><!-- create -->
+<div class="simple">
+  <span class="octicon octicon-repo"></span>
+
+  <div class="title">
+    <a href="https://github.com/gshipley">gshipley</a> <span>created</span> repository <a href="/gshipley/openshift-cartridge-logentries" class="css-truncate css-truncate-target" title="openshift-cartridge-logentries">openshift-cartridge-logentries</a>
+  </div>
+
+  <div class="time">
+    <time datetime="2014-05-16T20:51:23Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-05-16 16:51:23 -0400">on May 16</time>
+  </div>
+</div>
+</div></div>
+          <div class="alert create simple"><div class="body"><!-- create -->
+<div class="simple">
+  <span class="octicon octicon-repo"></span>
+
+  <div class="title">
+    <a href="https://github.com/gshipley">gshipley</a> <span>created</span> repository <a href="/gshipley/logentries" class="css-truncate css-truncate-target" title="logentries">logentries</a>
+  </div>
+
+  <div class="time">
+    <time datetime="2014-05-16T20:26:53Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-05-16 16:26:53 -0400">on May 16</time>
+  </div>
+</div>
+</div></div>
+          <div class="alert create simple"><div class="body"><!-- create -->
+<div class="simple">
+  <span class="octicon octicon-repo"></span>
+
+  <div class="title">
+    <a href="https://github.com/gshipley">gshipley</a> <span>created</span> repository <a href="/gshipley/osebinary" class="css-truncate css-truncate-target" title="osebinary">osebinary</a>
+  </div>
+
+  <div class="time">
+    <time datetime="2014-05-15T03:11:44Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-05-14 23:11:44 -0400">on May 14</time>
+  </div>
+</div>
+</div></div>
+          <div class="alert create simple"><div class="body"><!-- create -->
+<div class="simple">
+  <span class="octicon octicon-repo"></span>
+
+  <div class="title">
+    <a href="https://github.com/gshipley">gshipley</a> <span>created</span> repository <a href="/gshipley/powerballadbackend" class="css-truncate css-truncate-target" title="powerballadbackend">powerballadbackend</a>
+  </div>
+
+  <div class="time">
+    <time datetime="2014-05-09T03:06:37Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-05-08 23:06:37 -0400">on May 8</time>
+  </div>
+</div>
+</div></div>
+          <div class="alert create simple"><div class="body"><!-- create -->
+<div class="simple">
+  <span class="octicon octicon-repo"></span>
+
+  <div class="title">
+    <a href="https://github.com/gshipley">gshipley</a> <span>created</span> repository <a href="/gshipley/powerballadmobile" class="css-truncate css-truncate-target" title="powerballadmobile">powerballadmobile</a>
+  </div>
+
+  <div class="time">
+    <time datetime="2014-05-09T03:04:54Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-05-08 23:04:54 -0400">on May 8</time>
+  </div>
+</div>
+</div></div>
+          <div class="alert push"><div class="body"><!-- push -->
+<span class="mega-octicon octicon-git-commit"></span>
+
+<div class="time">
+  <time datetime="2014-05-04T22:35:24Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-05-04 18:35:24 -0400">on May 4</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/danmcp">danmcp</a> <span>pushed</span> to <a href="/openshift/magento-example/tree/master">master</a> at <a href="https://github.com/openshift/magento-example" class="css-truncate css-truncate-target">openshift/magento-example</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/danmcp"><img alt="Dan McPherson" class="gravatar js-avatar" data-user="492994" height="30" src="https://avatars2.githubusercontent.com/u/492994?s=140" width="30"></a>
+
+    <div class="commits pusher-is-only-committer">
+      <ul>
+        <li>
+          <span title="danmcp">
+            <img alt="Dan McPherson" class=" js-avatar" data-user="492994" height="16" src="https://avatars2.githubusercontent.com/u/492994?s=140" width="16">
+          </span>
+          <code><a href="/openshift/magento-example/commit/e5d7f8915c4d376935f3159914e4daba7deaacf2">e5d7f89</a></code>
+          <div class="message">
+            <blockquote>
+              Remove extraneous section
+            </blockquote>
+          </div>
+        </li>
+      </ul>
+    </div>
+</div>
+</div></div>
+          <div class="alert gollum"><div class="body"><!-- gollum -->
+<span class="mega-octicon octicon-book"></span>
+
+<div class="time">
+  <time datetime="2014-05-02T20:01:33Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-05-02 16:01:33 -0400">on May 2</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/Mokon">Mokon</a> <span>created</span> the <a href="https://github.com/Mokon/qubiquid" class="css-truncate css-truncate-target">Mokon/qubiquid</a> wiki
+</div>
+
+<div class="details">
+  <a href="https://github.com/Mokon"><img alt="David Bond" class="gravatar js-avatar" data-user="3249110" height="30" src="https://avatars2.githubusercontent.com/u/3249110?s=140" width="30"></a>
+  <div class="commits">
+    <ul>
+        <li>
+          Created
+          <a href="https://github.com/Mokon/qubiquid/wiki/Architecture">Architecture</a>.
+            <blockquote></blockquote>
+        </li>
+    </ul>
+  </div>
+</div>
+</div></div>
+          <div class="alert gollum"><div class="body"><!-- gollum -->
+<span class="mega-octicon octicon-book"></span>
+
+<div class="time">
+  <time datetime="2014-05-02T20:01:10Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-05-02 16:01:10 -0400">on May 2</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/Mokon">Mokon</a> <span>created</span> the <a href="https://github.com/Mokon/qubiquid" class="css-truncate css-truncate-target">Mokon/qubiquid</a> wiki
+</div>
+
+<div class="details">
+  <a href="https://github.com/Mokon"><img alt="David Bond" class="gravatar js-avatar" data-user="3249110" height="30" src="https://avatars2.githubusercontent.com/u/3249110?s=140" width="30"></a>
+  <div class="commits">
+    <ul>
+        <li>
+          Created
+          <a href="https://github.com/Mokon/qubiquid/wiki/Home">Home</a>.
+            <blockquote></blockquote>
+        </li>
+    </ul>
+  </div>
+</div>
+</div></div>
+          <div class="alert create simple"><div class="body"><!-- create -->
+<div class="simple">
+  <span class="octicon octicon-tag"></span>
+
+  <div class="title">
+    <a href="https://github.com/zoltanp">zoltanp</a> <span>created</span> tag <a href="/zoltanp/xrandr-invert-colors/tree/v0.01" class="css-truncate css-truncate-target" title="v0.01">v0.01</a> at <a href="https://github.com/zoltanp/xrandr-invert-colors" class="css-truncate css-truncate-target">zoltanp/xrandr-invert-colors</a>
+  </div>
+
+  <div class="time">
+    <time datetime="2014-04-27T18:02:28Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-27 14:02:28 -0400">on Apr 27</time>
+  </div>
+</div>
+</div></div>
+          <div class="alert release"><div class="body"><!-- release -->
+<span class="mega-octicon octicon-tag"></span>
+
+<div class="time">
+  <time datetime="2014-04-27T18:02:27Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-27 14:02:27 -0400">on Apr 27</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/zoltanp">zoltanp</a> <span>released</span> <a href="/zoltanp/xrandr-invert-colors/releases/tag/v0.01">First release.</a> at <a href="https://github.com/zoltanp/xrandr-invert-colors" class="css-truncate css-truncate-target">zoltanp/xrandr-invert-colors</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/zoltanp"><img alt="Zoltan Padrah" class="gravatar js-avatar" data-user="791662" height="30" src="https://avatars2.githubusercontent.com/u/791662?s=140" width="30"></a>
+
+  <div class="release-assets">
+    <ul>
+        <li>
+          <span class="octicon octicon-cloud-download"></span>
+          <div class="message"><a href="/zoltanp/xrandr-invert-colors/archive/v0.01.zip" rel="nofollow">Source code (zip)</a>
+        </div></li>
+
+    </ul>
+  </div>
+
+</div>
+</div></div>
+          <div class="alert issues_closed"><div class="body"><!-- issues -->
+<span class="mega-octicon octicon-issue-closed"></span>
+
+<div class="time">
+  <time datetime="2014-04-27T18:00:25Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-27 14:00:25 -0400">on Apr 27</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/zoltanp">zoltanp</a> <span>closed</span> issue <a href="https://github.com/zoltanp/xrandr-invert-colors/issues/4" title="Program prints debug output even when it is not needed">zoltanp/xrandr-invert-colors#4</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/zoltanp"><img alt="Zoltan Padrah" class="gravatar js-avatar" data-user="791662" height="30" src="https://avatars2.githubusercontent.com/u/791662?s=140" width="30"></a>
+  <div class="message">
+    <blockquote>
+      Program prints debug output even when it is not needed
+    </blockquote>
+  </div>
+</div>
+</div></div>
+          <div class="alert issues_comment"><div class="body"><!-- issue_comment -->
+<span class="mega-octicon octicon-comment-discussion"></span>
+
+<div class="time">
+  <time datetime="2014-04-27T18:00:25Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-27 14:00:25 -0400">on Apr 27</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/zoltanp">zoltanp</a> <span>commented</span> on issue <a href="https://github.com/zoltanp/xrandr-invert-colors/issues/4#issuecomment-41503737" title="Program prints debug output even when it is not needed">zoltanp/xrandr-invert-colors#4</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/zoltanp"><img alt="Zoltan Padrah" class="gravatar js-avatar" data-user="791662" height="30" src="https://avatars2.githubusercontent.com/u/791662?s=140" width="30"></a>
+  <div class="message markdown-body">
+    <blockquote>
+      <p>Fixed by <a href="https://github.com/zoltanp/xrandr-invert-colors/pull/5" class="issue-link" title="Implement basisc for logging.">#5</a>. "--debug" not added.</p>
+    </blockquote>
+  </div>
+</div>
+</div></div>
+          <div class="alert push"><div class="body"><!-- push -->
+<span class="mega-octicon octicon-git-commit"></span>
+
+<div class="time">
+  <time datetime="2014-04-27T17:57:13Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-27 13:57:13 -0400">on Apr 27</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/zoltanp">zoltanp</a> <span>pushed</span> to <a href="/zoltanp/xrandr-invert-colors/tree/master">master</a> at <a href="https://github.com/zoltanp/xrandr-invert-colors" class="css-truncate css-truncate-target">zoltanp/xrandr-invert-colors</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/zoltanp"><img alt="Zoltan Padrah" class="gravatar js-avatar" data-user="791662" height="30" src="https://avatars2.githubusercontent.com/u/791662?s=140" width="30"></a>
+
+    <div class="commits ">
+      <ul>
+        <li>
+          <span title="zoltanp">
+            <img alt="Zoltan Padrah" class=" js-avatar" data-user="791662" height="16" src="https://avatars2.githubusercontent.com/u/791662?s=140" width="16">
+          </span>
+          <code><a href="/zoltanp/xrandr-invert-colors/commit/7ca1d6f319086690d6f52b04026e93049e8912a3">7ca1d6f</a></code>
+          <div class="message">
+            <blockquote>
+              Merge pull request #5 from zoltanp/dont-log-by-default
+            </blockquote>
+          </div>
+        </li>
+        <li>
+          <span title="Zoltan P">
+            <img height="16" src="https://1.gravatar.com/avatar/3922c15994feddf1307b766ad4dd5a98?d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=x&amp;s=140" width="16">
+          </span>
+          <code><a href="/zoltanp/xrandr-invert-colors/commit/5dee52e830e8d24ae33d2839e32a3c6329d5b141">5dee52e</a></code>
+          <div class="message">
+            <blockquote>
+              update documentation
+            </blockquote>
+          </div>
+        </li>
+        <li class="more"><a href="https://github.com/zoltanp/xrandr-invert-colors/compare/2a5ab33ec4...7ca1d6f319">2 more commits »</a></li>
+      </ul>
+    </div>
+</div>
+</div></div>
+          <div class="alert issues_closed"><div class="body"><!-- pull_request -->
+<span class="mega-octicon octicon-git-pull-request"></span>
+
+<div class="time">
+  <time datetime="2014-04-27T17:57:13Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-27 13:57:13 -0400">on Apr 27</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/zoltanp">zoltanp</a> <span>merged</span> pull request <a href="https://github.com/zoltanp/xrandr-invert-colors/pull/5">zoltanp/xrandr-invert-colors#5</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/zoltanp"><img alt="Zoltan Padrah" class="gravatar js-avatar" data-user="791662" height="30" src="https://avatars2.githubusercontent.com/u/791662?s=140" width="30"></a>
+  <div class="message">
+    <blockquote>Implement basisc for logging.</blockquote>
+      <div class="pull-info">
+        <span class="octicon octicon-git-commit"></span>
+        <em>3</em> commits with
+        <em>46</em> additions and
+        <em>20</em> deletions
+      </div>
+  </div>
+</div>
+</div></div>
+          <div class="alert issues_comment"><div class="body"><!-- issue_comment -->
+<span class="mega-octicon octicon-comment-discussion"></span>
+
+<div class="time">
+  <time datetime="2014-04-27T17:57:02Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-27 13:57:02 -0400">on Apr 27</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/zoltanp">zoltanp</a> <span>commented</span> on pull request <a href="https://github.com/zoltanp/xrandr-invert-colors/pull/5#issuecomment-41503630" title="Implement basisc for logging.">zoltanp/xrandr-invert-colors#5</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/zoltanp"><img alt="Zoltan Padrah" class="gravatar js-avatar" data-user="791662" height="30" src="https://avatars2.githubusercontent.com/u/791662?s=140" width="30"></a>
+  <div class="message markdown-body">
+    <blockquote>
+      <p>Fixes <a href="https://github.com/zoltanp/xrandr-invert-colors/issues/4" class="issue-link" title="Program prints debug output even when it is not needed">#4</a>.</p>
+    </blockquote>
+  </div>
+</div>
+</div></div>
+          <div class="alert issues_opened"><div class="body"><!-- pull_request -->
+<span class="mega-octicon octicon-git-pull-request"></span>
+
+<div class="time">
+  <time datetime="2014-04-27T17:55:23Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-27 13:55:23 -0400">on Apr 27</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/zoltanp">zoltanp</a> <span>opened</span> pull request <a href="https://github.com/zoltanp/xrandr-invert-colors/pull/5">zoltanp/xrandr-invert-colors#5</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/zoltanp"><img alt="Zoltan Padrah" class="gravatar js-avatar" data-user="791662" height="30" src="https://avatars2.githubusercontent.com/u/791662?s=140" width="30"></a>
+  <div class="message">
+    <blockquote>Implement basisc for logging.</blockquote>
+      <div class="pull-info">
+        <span class="octicon octicon-git-commit"></span>
+        <em>3</em> commits with
+        <em>46</em> additions and
+        <em>20</em> deletions
+      </div>
+  </div>
+</div>
+</div></div>
+          <div class="alert create simple"><div class="body"><!-- create -->
+<div class="simple">
+  <span class="octicon octicon-git-branch"></span>
+
+  <div class="title">
+    <a href="https://github.com/zoltanp">zoltanp</a> <span>created</span> branch <a href="/zoltanp/xrandr-invert-colors/tree/dont-log-by-default" class="css-truncate css-truncate-target branch-link" title="dont-log-by-default"><span class="octicon octicon-git-branch"></span>dont-log-by-default</a> at <a href="https://github.com/zoltanp/xrandr-invert-colors" class="css-truncate css-truncate-target">zoltanp/xrandr-invert-colors</a>
+  </div>
+
+  <div class="time">
+    <time datetime="2014-04-27T17:53:31Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-27 13:53:31 -0400">on Apr 27</time>
+  </div>
+</div>
+</div></div>
+          <div class="alert issues_opened"><div class="body"><!-- issues -->
+<span class="mega-octicon octicon-issue-opened"></span>
+
+<div class="time">
+  <time datetime="2014-04-15T20:43:31Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-15 16:43:31 -0400">on Apr 15</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/patrick-steele-idem">patrick-steele-idem</a> <span>opened</span> issue <a href="https://github.com/flatiron/plates/issues/117" title="Not able to get the correct HTML output">flatiron/plates#117</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/patrick-steele-idem"><img alt="Patrick Steele-Idem" class="gravatar js-avatar" data-user="978214" height="30" src="https://avatars3.githubusercontent.com/u/978214?s=140" width="30"></a>
+  <div class="message">
+    <blockquote>
+      Not able to get the correct HTML output
+    </blockquote>
+  </div>
+</div>
+</div></div>
+          <div class="alert fork simple"><div class="body"><!-- fork -->
+<div class="simple">
+  <span class="octicon octicon-git-branch"></span>
+
+  <div class="title">
+    <a href="https://github.com/gshipley">gshipley</a> <span>forked</span> <a href="https://github.com/openshift-quickstart/openshift-diy-java-demo" class="css-truncate css-truncate-target">openshift-quickstart/openshift-diy-java-demo</a> to <a href="https://github.com/gshipley/openshift-diy-java-demo" class="css-truncate css-truncate-target" title="gshipley/openshift-diy-java-demo">gshipley/openshift-diy-java-demo</a>
+  </div>
+
+  <div class="time">
+    <time datetime="2014-04-12T00:25:10Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-11 20:25:10 -0400">on Apr 11</time>
+  </div>
+</div>
+</div></div>
+          <div class="alert issues_opened"><div class="body"><!-- issues -->
+<span class="mega-octicon octicon-issue-opened"></span>
+
+<div class="time">
+  <time datetime="2014-04-11T20:24:54Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-11 16:24:54 -0400">on Apr 11</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/appsforartists">appsforartists</a> <span>opened</span> issue <a href="https://github.com/the-gss/engine/issues/46" title="Support &quot;_&quot; in VGL @grid-template directives">the-gss/engine#46</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/appsforartists"><img alt="Brenton Simpson" class="gravatar js-avatar" data-user="926648" height="30" src="https://avatars2.githubusercontent.com/u/926648?s=140" width="30"></a>
+  <div class="message">
+    <blockquote>
+      Support "_" in VGL @grid-template directives
+    </blockquote>
+  </div>
+</div>
+</div></div>
+          <div class="alert issues_opened"><div class="body"><!-- issues -->
+<span class="mega-octicon octicon-issue-opened"></span>
+
+<div class="time">
+  <time datetime="2014-04-11T19:42:16Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-11 15:42:16 -0400">on Apr 11</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/appsforartists">appsforartists</a> <span>opened</span> issue <a href="https://github.com/the-gss/engine/issues/45" title="Support for `>` selector">the-gss/engine#45</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/appsforartists"><img alt="Brenton Simpson" class="gravatar js-avatar" data-user="926648" height="30" src="https://avatars2.githubusercontent.com/u/926648?s=140" width="30"></a>
+  <div class="message">
+    <blockquote>
+      Support for `&gt;` selector
+    </blockquote>
+  </div>
+</div>
+</div></div>
+          <div class="alert issues_opened"><div class="body"><!-- issues -->
+<span class="mega-octicon octicon-issue-opened"></span>
+
+<div class="time">
+  <time datetime="2014-04-11T03:32:12Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-10 23:32:12 -0400">on Apr 10</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/appsforartists">appsforartists</a> <span>opened</span> issue <a href="https://github.com/the-gss/engine/issues/44" title="@elif directive">the-gss/engine#44</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/appsforartists"><img alt="Brenton Simpson" class="gravatar js-avatar" data-user="926648" height="30" src="https://avatars2.githubusercontent.com/u/926648?s=140" width="30"></a>
+  <div class="message">
+    <blockquote>
+      @elif directive
+    </blockquote>
+  </div>
+</div>
+</div></div>
+          <div class="alert issues_opened"><div class="body"><!-- issues -->
+<span class="mega-octicon octicon-issue-opened"></span>
+
+<div class="time">
+  <time datetime="2014-04-10T23:49:59Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-10 19:49:59 -0400">on Apr 10</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/lambdahands">lambdahands</a> <span>opened</span> issue <a href="https://github.com/the-gss/engine/issues/43" title="Implicit Connections">the-gss/engine#43</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/lambdahands"><img alt="Philip Joseph" class="gravatar js-avatar" data-user="3742606" height="30" src="https://avatars0.githubusercontent.com/u/3742606?s=140" width="30"></a>
+  <div class="message">
+    <blockquote>
+      Implicit Connections
+    </blockquote>
+  </div>
+</div>
+</div></div>
+          <div class="alert issues_comment"><div class="body"><!-- issue_comment -->
+<span class="mega-octicon octicon-comment-discussion"></span>
+
+<div class="time">
+  <time datetime="2014-04-08T03:13:54Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-07 23:13:54 -0400">on Apr 7</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/d4tocchini">d4tocchini</a> <span>commented</span> on issue <a href="https://github.com/the-gss/engine/issues/41#issuecomment-39807792" title="center-y bug">the-gss/engine#41</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/d4tocchini"><img alt="Dan Tocchini" class="gravatar js-avatar" data-user="26006" height="30" src="https://avatars1.githubusercontent.com/u/26006?s=140" width="30"></a>
+  <div class="message markdown-body">
+    <blockquote>
+      <p>Yeah, planning on adding a Gotcha section to the site...</p>
+    </blockquote>
+  </div>
+</div>
+</div></div>
+          <div class="alert push"><div class="body"><!-- push -->
+<span class="mega-octicon octicon-git-commit"></span>
+
+<div class="time">
+  <time datetime="2014-04-08T01:05:35Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-07 21:05:35 -0400">on Apr 7</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/d4tocchini">d4tocchini</a> <span>pushed</span> to <a href="/the-gss/engine/tree/master">master</a> at <a href="https://github.com/the-gss/engine" class="css-truncate css-truncate-target">the-gss/engine</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/d4tocchini"><img alt="Dan Tocchini" class="gravatar js-avatar" data-user="26006" height="30" src="https://avatars1.githubusercontent.com/u/26006?s=140" width="30"></a>
+
+    <div class="commits pusher-is-only-committer">
+      <ul>
+        <li>
+          <span title="d4tocchini">
+            <img alt="Dan Tocchini" class=" js-avatar" data-user="26006" height="16" src="https://avatars1.githubusercontent.com/u/26006?s=140" width="16">
+          </span>
+          <code><a href="/the-gss/engine/commit/51d9f7ea9f5eca3de2c877fd5c855f6101879fd3">51d9f7e</a></code>
+          <div class="message">
+            <blockquote>
+              VFL &lt;Point&gt; Support
+            </blockquote>
+          </div>
+        </li>
+      </ul>
+    </div>
+</div>
+</div></div>
+          <div class="alert issues_comment"><div class="body"><!-- issue_comment -->
+<span class="mega-octicon octicon-comment-discussion"></span>
+
+<div class="time">
+  <time datetime="2014-04-08T00:47:13Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-07 20:47:13 -0400">on Apr 7</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/jasonkuhrt">jasonkuhrt</a> <span>commented</span> on issue <a href="https://github.com/the-gss/engine/issues/41#issuecomment-39800774" title="center-y bug">the-gss/engine#41</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/jasonkuhrt"><img alt="Jason Kuhrt" class="gravatar js-avatar" data-user="284476" height="30" src="https://avatars1.githubusercontent.com/u/284476?s=140" width="30"></a>
+  <div class="message markdown-body">
+    <blockquote>
+      <p><a href="https://github.com/d4tocchini" class="user-mention">@d4tocchini</a> Ok, I updated the example at <a href="http://jasonkuhrt.github.io/sandbox/">http://jasonkuhrt.github.io/sandbox/</a> and indeed it works fine if using the <code>opacity: 0;</code> technique. Is this …</p>
+    </blockquote>
+  </div>
+</div>
+</div></div>
+          <div class="alert issues_comment"><div class="body"><!-- issue_comment -->
+<span class="mega-octicon octicon-comment-discussion"></span>
+
+<div class="time">
+  <time datetime="2014-04-07T22:56:03Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-07 18:56:03 -0400">on Apr 7</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/d4tocchini">d4tocchini</a> <span>commented</span> on issue <a href="https://github.com/the-gss/engine/issues/41#issuecomment-39793910" title="center-y bug">the-gss/engine#41</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/d4tocchini"><img alt="Dan Tocchini" class="gravatar js-avatar" data-user="26006" height="30" src="https://avatars1.githubusercontent.com/u/26006?s=140" width="30"></a>
+  <div class="message markdown-body">
+    <blockquote>
+      <p>Whoops, use this JSFiddle link: <a href="http://jsfiddle.net/v7u6N/7/">http://jsfiddle.net/v7u6N/7/</a></p>
+    </blockquote>
+  </div>
+</div>
+</div></div>
+          <div class="alert issues_comment"><div class="body"><!-- issue_comment -->
+<span class="mega-octicon octicon-comment-discussion"></span>
+
+<div class="time">
+  <time datetime="2014-04-07T22:48:49Z" is="relative-time" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-07 18:48:49 -0400">on Apr 7</time>
+</div>
+
+<div class="title">
+  <a href="https://github.com/d4tocchini">d4tocchini</a> <span>commented</span> on issue <a href="https://github.com/the-gss/engine/issues/41#issuecomment-39793373" title="center-y bug">the-gss/engine#41</a>
+</div>
+
+<div class="details">
+  <a href="https://github.com/d4tocchini"><img alt="Dan Tocchini" class="gravatar js-avatar" data-user="26006" height="30" src="https://avatars1.githubusercontent.com/u/26006?s=140" width="30"></a>
+  <div class="message markdown-body">
+    <blockquote>
+      <p>Here's a <a href="http://jsfiddle.net/SubtleGradient/v7u6N/">JSFiddle of your example</a>, it works there as it should. Looks like it could be the  html:not(.gss-ready){ display: none; }
+ <code>display:none</code> ki…</p>
+    </blockquote>
+  </div>
+</div>
+</div></div>
+
+
+          <div class="pagination ajax_paginate"><a href="/dashboard/index/2" class="js-events-pagination">More</a></div>
+    </div>
+
+    <div class="dashboard-sidebar">
+      <div class="octofication js-notice">
+  <div class="message">
+    <a href="/account/read_broadcast/1841" class="notice-dismiss js-notice-dismiss" data-remote="true" data-method="put">
+      <span class="octicon octicon-x"></span>
+    </a>
+    <div class="broadcast-icon">
+      <span class="mega-octicon octicon-radio-tower"></span>
+      <span class="broadcast-icon-mask left"></span>
+      <span class="broadcast-icon-mask right"></span>
+    </div>
+    <h3><a href="/blog/1841-nested-task-lists">Nested task lists</a></h3>
+    <p>We're excited to announce nested task lists!</p>
+  </div>
+  <div class="octofication-more">
+    <a href="/blog/broadcasts">
+        View <strong>2</strong> new broadcasts
+    </a>
+  </div>
+</div>
+
+
+      
+          <div class="box box-small">
+            <div class="box-header">
+              <h3 class="box-title">Repositories you contribute to</h3>
+            </div>
+            <div class="box-body">
+              <ul class="repo-list">
+                
+  <li class="public source ">
+    <a href="/Team-Sass/breakpoint" class="repo-list-item css-truncate">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target">
+        <span class="owner css-truncate-target" title="Team-Sass">Team-Sass</span>/<span class="repo" title="breakpoint">breakpoint</span>
+      </span>
+      <span class="stars">
+        888
+        <span class="octicon octicon-star"></span>
+      </span>
+      <span class="repo-description css-truncate-target">Really simple media queries in Sass</span>
+    </a>
+  </li>
+
+  <li class="public source ">
+    <a href="/cdnjs/cdnjs" class="repo-list-item css-truncate">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target">
+        <span class="owner css-truncate-target" title="cdnjs">cdnjs</span>/<span class="repo" title="cdnjs">cdnjs</span>
+      </span>
+      <span class="stars">
+        1,992
+        <span class="octicon octicon-star"></span>
+      </span>
+      <span class="repo-description css-truncate-target">Our goal is to operate this CDN in a peer reviewed fashion.</span>
+    </a>
+  </li>
+
+  <li class="public source ">
+    <a href="/mmcgrath-openshift/openshift-cartridge-varnish" class="repo-list-item css-truncate">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target">
+        <span class="owner css-truncate-target" title="mmcgrath-openshift">mmcgrath-openshift</span>/<span class="repo" title="openshift-cartridge-varnish">openshift-cartridge-varnish</span>
+      </span>
+      <span class="stars">
+        7
+        <span class="octicon octicon-star"></span>
+      </span>
+      <span class="repo-description css-truncate-target">Simple varnish cartridge to help speed up performance.</span>
+    </a>
+  </li>
+
+  <li class="public fork ">
+    <a href="/codio/boxparts" class="repo-list-item css-truncate">
+        <span class="repo-icon octicon octicon-repo-forked"></span>
+      <span class="repo-and-owner css-truncate-target">
+        <span class="owner css-truncate-target" title="codio">codio</span>/<span class="repo" title="boxparts">boxparts</span>
+      </span>
+      <span class="stars">
+        12
+        <span class="octicon octicon-star"></span>
+      </span>
+      <span class="repo-description css-truncate-target">Simple package manager</span>
+    </a>
+  </li>
+
+  <li class="public source ">
+    <a href="/foauth/foauth.org" class="repo-list-item css-truncate">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target">
+        <span class="owner css-truncate-target" title="foauth">foauth</span>/<span class="repo" title="foauth.org">foauth.org</span>
+      </span>
+      <span class="stars">
+        166
+        <span class="octicon octicon-star"></span>
+      </span>
+      <span class="repo-description css-truncate-target">foauth.org makes OAuth optional.</span>
+    </a>
+  </li>
+
+              </ul>
+            </div>
+          </div>
+
+      
+        <div class="box box-small repos user-repos js-repo-filter" id="your_repos">
+          <div class="box-header">
+            <a href="/repositories/new" class="minibutton primary new-repo">
+              <span class="octicon octicon-plus"></span>
+              New repository
+</a>            <h3 class="box-title">
+              Your repositories <span class="box-title-count">13</span>
+            </h3>
+          </div>
+          <div class="box-body">
+              <div class="filter-repos filter-bar">
+                <input type="text" id="your-repos-filter" class="filter-input js-filterable-field" placeholder="Find a repository…" tabindex="2">
+                <ul class="repo-filterer">
+                  <li><a href="#" class="repo-filter js-repo-filter-tab filter-selected" data-filter=".public, li.private">All repositories</a></li>
+                  <li><a href="#" class="repo-filter js-repo-filter-tab" data-filter=".public">Public</a></li>
+                  <li><a href="#" class="repo-filter js-repo-filter-tab" data-filter=".private">Private</a></li>
+                  <li><a href="#" class="repo-filter js-repo-filter-tab" data-filter=".source">Sources</a></li>
+                  <li><a href="#" class="repo-filter js-repo-filter-tab" data-filter=".fork">Forks</a></li>
+                </ul>
+              </div>
+              <ul id="repo_listing" class="repo-list js-repo-list" data-filterable-for="your-repos-filter" data-filterable-type="substring">
+                
+  <li class="public source">
+    <a class="repo-list-item css-truncate" href="/gavinengel/0cms">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target" title="gavinengel/0cms">
+        <span class="repo">0cms</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="public fork">
+    <a class="repo-list-item css-truncate" href="/gavinengel/sample-facebook-api">
+        <span class="repo-icon octicon octicon-repo-forked"></span>
+      <span class="repo-and-owner css-truncate-target" title="gavinengel/sample-facebook-api">
+        <span class="repo">sample-facebook-api</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="private source">
+    <a class="repo-list-item css-truncate" href="/Mokon/qubiquid">
+        <span class="repo-icon octicon octicon-lock"></span>
+      <span class="repo-and-owner css-truncate-target" title="Mokon/qubiquid">
+        <span class="owner css-truncate-target">Mokon</span>/<span class="repo">qubiquid</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="public source">
+    <a class="repo-list-item css-truncate" href="/gavinengel/gavinengel.github.io">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target" title="gavinengel/gavinengel.github.io">
+        <span class="repo">gavinengel.github.io</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="public source">
+    <a class="repo-list-item css-truncate" href="/gavinengel/generic-remote-bashrc">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target" title="gavinengel/generic-remote-bashrc">
+        <span class="repo">generic-remote-bashrc</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="public source">
+    <a class="repo-list-item css-truncate" href="/gavinengel/datatypes-php">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target" title="gavinengel/datatypes-php">
+        <span class="repo">datatypes-php</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="public source">
+    <a class="repo-list-item css-truncate" href="/gavinengel/datatypes-python">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target" title="gavinengel/datatypes-python">
+        <span class="repo">datatypes-python</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="public source">
+    <a class="repo-list-item css-truncate" href="/gavinengel/datatypes-ruby">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target" title="gavinengel/datatypes-ruby">
+        <span class="repo">datatypes-ruby</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="public source">
+    <a class="repo-list-item css-truncate" href="/gavinengel/datatypes-js">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target" title="gavinengel/datatypes-js">
+        <span class="repo">datatypes-js</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="public source">
+    <a class="repo-list-item css-truncate" href="/gavinengel/datatypes-json">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target" title="gavinengel/datatypes-json">
+        <span class="repo">datatypes-json</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="public fork">
+    <a class="repo-list-item css-truncate" href="/gavinengel/iz">
+        <span class="repo-icon octicon octicon-repo-forked"></span>
+      <span class="repo-and-owner css-truncate-target" title="gavinengel/iz">
+        <span class="repo">iz</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="public source">
+    <a class="repo-list-item css-truncate" href="/gavinengel/misc-bash-scripts">
+        <span class="repo-icon octicon octicon-repo"></span>
+      <span class="repo-and-owner css-truncate-target" title="gavinengel/misc-bash-scripts">
+        <span class="repo">misc-bash-scripts</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="public fork">
+    <a class="repo-list-item css-truncate" href="/gavinengel/olalonde.github.com">
+        <span class="repo-icon octicon octicon-repo-forked"></span>
+      <span class="repo-and-owner css-truncate-target" title="gavinengel/olalonde.github.com">
+        <span class="repo">olalonde.github.com</span>
+      </span>
+    </a>
+  </li>
+
+              </ul>
+
+          </div>
+        </div>
+
+
+      <a class="subscribe-feed tooltipped tooltipped-w" aria-label="Subscribe to your personalized GitHub feed" href="/gavinengel.private.atom?token=523621__eyJzY29wZSI6IkF0b206L2dhdmluZW5nZWwucHJpdmF0ZS5hdG9tIiwiZXhwaXJlcyI6Mjk3OTA3MzAzNH0=--6c0cb72a629026fd6cc2557ee61d4ce6020bb742"><span class="octicon octicon-rss"></span>Subscribe to News Feed</a>
+    </div><!-- /sidebar -->
+
+  </div><!-- /#dashboard -->
+</div><!-- /.container -->
+
+          </div>
+          <div class="modal-backdrop"></div>
+        </div>
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>© 2014 <span title="0.07753s from github-fe124-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w" aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x close js-ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-5bef6dacd990ce272ec009917ceea0b9d96f84b7.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-fa90dd0cdeb07e1ddb21c8d4a5b5ba23e6c0ca0b.js" type="text/javascript"></script>
+      
+      
+  
+
+</body>
