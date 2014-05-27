@@ -40,17 +40,7 @@
   "api": {
     "rest": {
       "json": {
-        "src": "http://example.com/rest-schema.js"
-      }
-    },
-    "websocket": {
-      "json": {
-        "src": "http://example.com/websocket-schema.js"
-      }
-    },
-    "rpc": {
-      "json": {
-        "src": "http://example.com/rpc-schema.js" 
+        "src": "http://example.com/rest-schema.raml"
       }
     }
   }
