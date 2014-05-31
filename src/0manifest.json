@@ -33,7 +33,7 @@
     }
   },
   "style": {
-    "sass": { 
+    "less": { 
       "src": "http://example.com/somefile.scss",
       "editing": { 
         "cloud9": "http://cloud9.io/asdfasdfasdf"
@@ -43,7 +43,7 @@
   "packages": {
     "bower": ["jquery", "bootstrap"]
   },
-  "script": { 
+  "NO, easier to just include these via the jade. script": { 
     "javascript": {
       "src": "http://example.com/somefile.js",    
       "editing": { 
