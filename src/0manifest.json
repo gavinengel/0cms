@@ -1,7 +1,14 @@
 {
   "meta": { 
     "0manifest": {
-      "version":  "0.0.1"
+      "schema":  "http://example.com/0manifest-schema-ver-0.0.1.json" 
+    },
+    "app": {
+      "name": "some cool app",
+      "version": "0.0.1",
+      "email": "gavin@engel.com",
+      "license": "http://opensource.org/licenses/MIT",
+      "date": "2014-05-30 20:00:00"
     }
   },
   "uma": { 
@@ -9,13 +16,20 @@
       "src": "http://leanstack.io/stackups/auth0-vs-dailycred-vs-stormpath" 
     }
   },
-  "datasource": { 
+  "datasheet": { 
     "notes": {
       "example": "http://goo.gl/Sq3jfo"
     },
     "version": "0.0.1",
     "google-spreadsheet": { 
       "api-key": "someapikeyaslkdf29r3ujasdfl;jasdf"
+    },
+    "variables": {
+      "foo": "asdfasdf",
+      "bar": "asdfasdf"
+    },
+    "schema": {
+      "src": "http://example.com/datasheetschema.json"
     }
   },
   "style": {
@@ -37,10 +51,33 @@
       }
     }
   },
-  "api": {
+  "dynamic": {
     "rest": {
       "json": {
         "src": "http://example.com/rest-schema.raml"
+      }
+    }
+  },
+  "destination": {
+    "static": {
+      "repository": {
+        "git": {
+          "src": "git@github.com:gavinengel/0cms.git"
+        }
+      }
+    },
+    "dynamic": {
+      "repository": {
+        "git": {
+          "src": "git@github.com:gavinengel/0cms.git"
+        }
+      }
+    }
+  },
+  "logging": {
+    "dynamic": {
+      "services": {
+
       }
     }
   }
